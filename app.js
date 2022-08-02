@@ -8,7 +8,7 @@ if (gender=="Male"||"Female") {
     };
 var age=prompt("Enter Your age");
 if (age>0) {
-    age=age;
+    age=age;   
 } else {
     alert("age is under zero");
 }
@@ -17,13 +17,13 @@ if (con=="True") {
     Break;
 } else {
 
-if (gender=="Male") {
-    alert("Hello Mr");
+if (gender=="male") {
+    alert("Hello Mr."+name);
 } else {
-    if (gender=="Female") {
-        alert("Hello Ms");
+    if (gender=="female") {
+        alert("Hello Ms."+name);
     } else {
-        alert("Hello");
+        alert("Hello "+name);
     }
 }
 }
